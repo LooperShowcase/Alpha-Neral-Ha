@@ -1,0 +1,58 @@
+            body{
+                font-family: 'Rum Raisin', sans-serif;
+               color: rgb(0, 0, 0);
+            }
+            h1 {color: rgb(0, 0, 0);}
+            #par {
+                background-color: rgb(255, 255, 255);
+            }
+            div {background-color: rgba(255, 255, 255, 0.184);
+                
+
+            }
+            #no {background-color: rgb(255, 255, 255);}
+            #myidv {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#Navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #000000;
+    background-color: #000000;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #030000;
+  }
+  
+  li a.active {
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+  }
+  .Neral {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(0, 0, 0);
+    text-align: center;
+ }
